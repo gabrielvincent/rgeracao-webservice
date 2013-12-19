@@ -1,8 +1,10 @@
+include ActionView::Helpers::NumberHelper
+
 class WelcomeController < ApplicationController
 
 	def index
 		
-		@time = (Time.parse("02/04/2014").to_f - Time.now.to_f).to_i
+		@seconds_remaining = number_with_delimiter(((Time.parse("april 18 2014").to_f - Time.now.to_f).to_i), :delimiter => ".")
 	end
 
 end
