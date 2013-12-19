@@ -49,3 +49,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Ruby Version
+ruby '2.0.0'

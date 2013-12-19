@@ -1,0 +1,18 @@
+# Logfile created on 2013-12-19 10:27:09 -0200 by logger.rb/36483
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Starting the New Relic agent in "development" environment.
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Reading configuration from config/newrelic.yml
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : New Relic Agent Developer Mode enabled.
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Enabling the Request Sampler.
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Environment: development
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Dispatcher: webrick
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Application: RGeracao-Webservice
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] WARN : Agent configured not to send data in this environment.
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Installing ActiveRecord 4 instrumentation
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Installing Net instrumentation
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Installing deferred Rack instrumentation
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Installing Rails 4 Controller instrumentation
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Installing Rails 4 view instrumentation
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Installing Rails4 Error instrumentation
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Finished instrumentation
+[12/19/13 10:27:09 -0200 MacBook-r0x.local (15703)] INFO : Doing deferred dependency-detection before Rack startup
