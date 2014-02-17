@@ -3,5 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html {
+	background:url("Romero.jpg");
 	font-family:"ComicSansMS";
+}
+
+h2, p {
+	background-color:white;
+
+	-moz-box-shadow:10px 10px 5px #000000;
+	-webkit-box-shadow:10px 10px 5px #000000;
+	box-shadow:10px 10px 5px #000000;
+
+	border:none 0px #000000;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 }
